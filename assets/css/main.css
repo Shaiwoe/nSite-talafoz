@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #15212a;
+  color: #fff;
+  font-family: medium;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'light';
+  src: url(./assets/fonts/light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'medium';
+  src: url(./assets/fonts/medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Nova";
+  src: url(../fonts/NovaSquare-Regular.ttf) format("woff2");
+}
+
+/* Vue-Tostification */
+@media only screen and (min-width: 600px) {
+
+  .Vue-Toastification__container.top-right .Vue-Toastification__toast--rtl,
+  .Vue-Toastification__container.bottom-right .Vue-Toastification__toast--rtl {
+      margin-right: unset !important;
+      margin-left: auto !important;
+      font-family: "medium", Arial, Helvetica, sans-serif !important;
+  }
+}
+
+#nova {
+  font-family: Nova;
+}
+
+.font-sans-light {
+  font-family: light;
+}
+
+.font-sans-medium {
+  font-family: medium;
+}
+
+#git {
+  filter: invert(100%);
+}
+
+
+.custom-btn {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+/* 5 */
+.btn-5 {
+  width: 120px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+
+
+}
+
+.btn-5:hover {
+  color: white;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-5:before,
+.btn-5:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3px;
+  width: 0;
+  background: #ee5586;
+  transition: 400ms ease all;
+
+}
+
+.btn-5:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.login-image {
+  --tw-skew-x: -10deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
