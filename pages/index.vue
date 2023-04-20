@@ -41,6 +41,7 @@
                                 stroke="currentColor" class="w-5 h-5 bg-yellow1 text-black rounded-full p-0.5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
+                            
                             <p class="text-gray-400 text-sm lg:text-lg">
                                 پشتیبانی سریع و رفع مشکلات
                             </p>
