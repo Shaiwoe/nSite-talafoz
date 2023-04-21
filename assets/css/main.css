@@ -25,7 +25,7 @@ body {
 }
 
 /* Vue-Tostification */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 200px) {
 
   .Vue-Toastification__container.top-right .Vue-Toastification__toast--rtl,
   .Vue-Toastification__container.bottom-right .Vue-Toastification__toast--rtl {

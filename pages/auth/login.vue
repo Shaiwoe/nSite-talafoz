@@ -13,7 +13,7 @@
           class="bg-green1 w-10/12 p-8 rounded-md flex flex-col justify-center items-center space-y-8 z-50"
         >
           <p class="text-2xl">سلام دوست من !</p>
-          <p>جهت ورود و یا عضویت شماره همراه خود را وارد کنید</p>
+          <p class="text-xs lg:text-base">جهت ورود و یا عضویت شماره همراه خود را وارد کنید</p>
 
           <AuthCheckOtp v-if="showOtpForm" />
           <AuthLogin v-else @show-check-otp-form="() => (showOtpForm = true)" />

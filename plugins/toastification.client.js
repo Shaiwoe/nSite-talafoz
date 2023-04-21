@@ -6,6 +6,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.use(Toast, {
         rtl: true,
         position: "top-right",
-        timeout: 5000,
+        timeout: 3000,
     })
 });
