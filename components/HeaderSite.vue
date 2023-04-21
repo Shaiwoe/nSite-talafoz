@@ -5,12 +5,12 @@
     </div>
     <div class="container mx-auto flex justify-between text-gray-100 p-4 sm:px-8 sm:py-12 items-center">
       <!-- Logo  -->
-      <div id="nova" class="flex text-transparent text-4xl bg-clip-text bg-gradient-to-r from-white to-yellow1 z-50">
+      <div id="nova" class="flex text-transparent text-3xl lg:text-4xl bg-clip-text bg-gradient-to-r from-white to-red1 z-50">
         <NuxtLink to="/">Talafoz.com</NuxtLink>
       </div>
 
       <!-- Menu site  -->
-      <div class="hidden lg:flex gap-20 text-sm bg-black1 rounded-full py-4 px-8">
+      <div id="bg-menu" class="hidden lg:flex gap-20 text-sm bg-black1 rounded-full py-4 px-8">
         <NuxtLink class="text-center" to="/">تلفظ</NuxtLink>
         <NuxtLink class="text-center" to="/">دوره های آموزشی</NuxtLink>
         <NuxtLink class="text-center" to="/">مقالات</NuxtLink>
@@ -20,12 +20,12 @@
       </div>
 
       <!-- Sign in / SignUp  -->
-      <div class="flex justify-end gap-4 text-sm z-50 items-center">
+      <div class="flex justify-end gap-2 lg:gap-4 text-sm z-50 items-center">
         <button type="button" class="bg-black1 rounded-md p-1.5">
           <img class="w-7" src="/img/svg/zoom.svg" alt="" />
         </button>
 
-        <button type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+        <button type="button" 
           class="bg-black1 rounded-md p-1.5">
           <svg width="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.4"
@@ -37,9 +37,9 @@
           </svg>
         </button>
 
-          <NuxtLink v-if="authUser" to="/auth" class="">
-            <img class="w-10" src="/img/profile.png" alt="">
-          </NuxtLink>
+        <NuxtLink v-if="authUser" to="/auth" class="">
+          <img class="w-10" src="/img/profile.png" alt="">
+        </NuxtLink>
 
         <NuxtLink v-else to="/auth/login" class="bg-black1 rounded-md p-1.5">
           <svg width="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
