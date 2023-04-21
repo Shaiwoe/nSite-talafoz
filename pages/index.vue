@@ -41,7 +41,7 @@
                                 stroke="currentColor" class="w-5 h-5 bg-yellow1 text-black rounded-full p-0.5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
-                            
+
                             <p class="text-gray-400 text-sm lg:text-lg">
                                 پشتیبانی سریع و رفع مشکلات
                             </p>
@@ -63,7 +63,7 @@
                 <div class="grid lg:grid-cols-3 gap-12">
                     <!-- last post 1 -->
                     <div v-for="courses in data?.data?.last" :key="courses.id"
-                        class="flex flex-col w-full shadow-lg bg-gradient-to-tr from-black1 from-10% via-black1 via-30% to-red1 to-90% rounded-lg">
+                        class="flex flex-col w-full shadow-lg bg-gradient-to-tr from-black1 from-10% via-black1 via-30% to-yellow1 to-90% rounded-lg">
                         <img class="rounded-2xl p-4" src="/img/laravel-developer-1604669669.webp"
                             alt="" />
 

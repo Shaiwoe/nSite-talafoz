@@ -11,7 +11,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiBase: "https://talafoz.com/api",
+      // apiBase: "http://localhost:8000/api",
+      apiBase: "https://api.talafoz.com/api"
     },
   },
 

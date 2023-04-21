@@ -38,10 +38,7 @@
       <div class="w-8/12 bg-green1 flex justify-center items-center">
         <div class="w-full flex flex-col justify-center items-center z-10 space-y-12">
           <img class="w-4/12" src="/img/user-login.svg" alt="" />
-         <div class="flex gap-4">
-            <p id="nova" class="bg-black1 rounded-md p-2 w-64 text-center text-red1 ">your ip address: 192.168.1.1</p>
-            <p id="nova" class="bg-black1 rounded-md p-2 w-64 text-center text-red1 ">your ip address: 192.168.1.1</p>
-         </div>
+         
             <p class="bg-black1 rounded-md p-2 w-5/12 text-center text-green-400 ">Dear user, your identity has been confirmed</p>
           
         </div>
@@ -51,7 +48,6 @@
 </template>
 
 <script setup>
-
 definePageMeta({
     middleware: 'guest'
 })
