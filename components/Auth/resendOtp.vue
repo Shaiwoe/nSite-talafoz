@@ -57,7 +57,7 @@ async function resend() {
       method: "POST",
     });
 
-    toast.success("کد ورود دوباره برای شما ارسال شد");
+    toast.success("کد ورود دوباره ارسال شد");
     showResendOtp.value = false;
   } catch (error) {
     emit("resendOtpErrors", Object.values(error.data.data.message).flat());
