@@ -8,7 +8,7 @@
       />
     </div>
     <div class="w-full flex min-h-screen overflow-hidden">
-      <div class="w-4/12 bg-green2 flex flex-col justify-center items-center">
+      <div class="w-full lg:w-4/12 bg-green2 flex flex-col justify-center items-center">
         <div
           class="bg-green1 w-10/12 p-8 rounded-md flex flex-col justify-center items-center space-y-8 z-50"
         >
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="w-8/12 bg-green1 flex justify-center items-center">
+      <div class="hidden lg:flex w-8/12 bg-green1  justify-center items-center">
         <div class="w-full flex flex-col justify-center items-center z-10 space-y-12">
           <img class="w-4/12" src="/img/user-login.svg" alt="" />
          
@@ -43,6 +43,7 @@
           
         </div>
       </div>
+
     </div>
   </div>
 </template>
