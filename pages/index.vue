@@ -48,7 +48,7 @@
                         </li>
                     </ul>
 
-                    <p class="flex gap-4 items-center justify-center bg-yellow1 hover:bg-yellow-400 transition duration-150 ease-in-out p-2 rounded mt-8 w-full lg:w-4/12 text-center text-gray-800 cursor-pointer">
+                    <p class="flex gap-4 items-center justify-center bg-yellow1 hover:bg-amber-400 transition duration-150 ease-in-out p-2 rounded mt-8 w-full lg:w-4/12 text-center text-gray-800 cursor-pointer">
                         شروع یادگیری طراحی و برنامه نویسی
                         <svg width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
