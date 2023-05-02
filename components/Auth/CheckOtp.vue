@@ -11,7 +11,7 @@
       </div>
 
       <div class="flex flex-col gap-4">
-        <button @click="checkOtp" class="flex justify-center gap-3 items-center bg-yellow1 text-white p-2 rounded-xl">
+        <button @click="checkOtp" class="flex justify-center gap-3 items-center bg-green-500 text-white p-2 rounded-xl">
 
           تایید
 

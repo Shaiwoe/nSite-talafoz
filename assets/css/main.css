@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 body {
-  background-color: #15212a;
+  background: linear-gradient(240deg,#15212a 40%,#203964 100%);
   color: #fff;
-  font-family: medium;
+  font-family: "iranyekan", Arial, Helvetica, sans-serif !important;
 }
 
-/* fonts */
-@font-face {
-  font-family: 'light';
-  src: url(./assets/fonts/light.woff2) format('woff2');
-}
+
 
 @font-face {
-  font-family: 'medium';
-  src: url(./assets/fonts/medium.woff2) format('woff2');
+  font-family: 'iranyekan';
+  src: url(../fonts/iranyekanwebmedium.2d4f96e5.woff) format('woff2');
 }
+
+
 
 @font-face {
   font-family: "Nova";
@@ -31,7 +29,7 @@ body {
   .Vue-Toastification__container.bottom-right .Vue-Toastification__toast--rtl {
     margin-right: unset !important;
     margin-left: auto !important;
-    font-family: "medium", Arial, Helvetica, sans-serif !important;
+    font-family: "iranyekan", Arial, Helvetica, sans-serif !important;
   }
 }
 
@@ -47,13 +45,7 @@ body {
   font-family: Nova;
 }
 
-.font-sans-light {
-  font-family: light;
-}
 
-.font-sans-medium {
-  font-family: medium;
-}
 
 #git {
   filter: invert(100%);
@@ -117,7 +109,3 @@ body {
   transition: 800ms ease all;
 }
 
-.login-image {
-  --tw-skew-x: -10deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}

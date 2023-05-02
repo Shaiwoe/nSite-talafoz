@@ -9,9 +9,9 @@
     <form @submit.prevent="login" class="flex flex-col space-y-8 w-full">
 
       <input v-model="cellphone"
-        class="bg-transparent p-2 border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-green-500 focus:ring-green-500 block w-full rounded-md focus:ring-1"
+        class="bg-transparent p-2 border shadow-sm border-slate-300 placeholder-slate-300 focus:outline-none focus:border-green-600 focus:ring-green-600 block w-full rounded-md focus:ring-1"
         type="text" placeholder="شماره همراه" name="" id="" />
-      <button :disabled="loading" class="flex justify-center gap-3 items-center bg-yellow1 text-gray-800 p-2 rounded-xl">
+      <button :disabled="loading" class="flex justify-center gap-3 items-center bg-green-500 text-gray-200 p-2 rounded-xl">
         ورود
 
         <div role="status" v-if="loading">

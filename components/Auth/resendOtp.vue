@@ -7,7 +7,7 @@
       </vue-countdown>
     </div>
 
-    <button @click="resend" :disabled="loading" v-else class="flex justify-center gap-3 items-center bg-green-500 text-white p-2 rounded-xl text-center">
+    <button @click="resend" :disabled="loading" v-else class="flex justify-center gap-3 items-center bg-sky-500 text-white p-2 rounded-xl text-center">
 
       ارسال مجدد
 

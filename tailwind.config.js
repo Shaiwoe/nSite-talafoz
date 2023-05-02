@@ -27,9 +27,11 @@ module.exports = {
         'black1' : '#101920',
         'green1' : '#15212a',
         'green2' : '#101920',
-        
-        
+        'light' : '#203964',
       },
+      borderRadius: {
+        '5xl': '6rem',
+      }
     },
   },
   plugins: [
