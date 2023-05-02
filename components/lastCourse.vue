@@ -16,7 +16,7 @@
             <!-- new post box -->
             <div class="grid lg:grid-cols-3 gap-12">
 
-                <div v-for="course in courses.data.last" :key="course.id" class="relative">
+                <div v-for="course in courses?.data?.last" :key="course.id" class="relative">
                     <!-- last post 1 -->
                     <div
                         class="flex flex-col w-full shadow-lg bg-gradient-to-tr from-black1 from-10% via-black1 via-30% to-light to-90% transition duration-300 ease-in-out  rounded-lg">
