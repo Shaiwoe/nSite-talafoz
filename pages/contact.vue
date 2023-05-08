@@ -1,7 +1,7 @@
 <template>
     <div>
         <LayoutHeader />
-        <div class="container mx-auto min-h-screen p-4 lg:p-8 flex justify-between mt-24 gap-20">
+        <div class="container mx-auto min-h-screen p-4 lg:p-8 flex justify-between mt-12 gap-20">
 
             <div class="w-full flex flex-col space-y-6 h-full">
                 <h1 class="text-4xl">ارتباط با ما</h1>
