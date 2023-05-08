@@ -44,6 +44,14 @@
                             class="w-full rounded-md bg-green1 focus:outline-none focus:border-green-600 focus:ring-green-600"
                             placeholder="نام و نام خانوادگی" type="text" name="" id="">
                     </div>
+
+                    <div class="flex flex-col gap-4">
+                        <label for="">موبایل</label>
+                        <input v-model="formData.phone"
+                            class="w-full rounded-md bg-green1 focus:outline-none focus:border-green-600 focus:ring-green-600"
+                            placeholder="نام و نام خانوادگی" type="text" name="" id="">
+                    </div>
+
                     <div class="flex flex-col gap-4">
                         <label for="">ایمیل</label>
                         <input v-model="formData.email"
@@ -104,6 +112,7 @@ const toast = useToast();
 const { public: { apiBase } } = useRuntimeConfig();
 const formData = reactive({
     name: "",
+    phone: "",
     email: "",
     subject: "",
     text: "",
